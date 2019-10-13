@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
+    <link>https://helloa24.com/blog/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; 2018 Atsushi Hori</copyright>
     <lastBuildDate>Sun, 13 Oct 2019 18:47:48 +0900</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://helloa24.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>20191013</title>
-      <link>http://example.org/20191013/</link>
+      <link>https://helloa24.com/blog/20191013/</link>
       <pubDate>Sun, 13 Oct 2019 18:47:48 +0900</pubDate>
       
-      <guid>http://example.org/20191013/</guid>
+      <guid>https://helloa24.com/blog/20191013/</guid>
       <description>h2 本文です</description>
     </item>
     
