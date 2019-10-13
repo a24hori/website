@@ -1,5 +1,10 @@
-export default () =>
-    <div>
-        <h1>Hello.js</h1>
-        <div>Welcome to Next.js</div>
-    </div>
+import Link from 'next/link';
+
+const Index = () => (
+	  <div>
+		<h1>Next.js</h1>
+	    <p>Hello Next.js</p>
+	  </div>
+);
+
+export default Index;
