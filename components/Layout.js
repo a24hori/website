@@ -1,6 +1,6 @@
 import Header from './Header';
 
-const leyoutStyle = {
+const layoutStyle = {
     margin: 30,
     padding: 20
 };
