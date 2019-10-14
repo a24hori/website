@@ -3,11 +3,11 @@ languageCode = "ja-jp"
 title = "My New Hugo Site"
 theme = "Memorandum"
 
-sCJKLanguage = true    # 日本語なら必須
+sCJKLanguage = true
 
-copyright = "&copy; 2018 Atsushi Hori" # あったほうが良い
+copyright = "&copy; 2018 Atsushi Hori"
 disqusShortname = ""               # DISQUSでユーザー登録、Adminから新規サイトを作ってそのショートネームを設定
-googleAnalytics = ""               # google Analyticsの追跡タグ 追跡が要らなかったら行ごと削除
+#googleAnalytics = ""               # google Analyticsの追跡タグ 追跡が要らなかったら行ごと削除
 summarylength = 200                # トップページの記事一覧の要約文字数(英語の場合単語数)
 
 [taxonomies]
@@ -16,7 +16,7 @@ category = "categories"
 
 [params]
 description = "メモにメモ以上の価値を求めるのはいけない"  # 必須 サイトの副題
-keywords = []   # SEO用キーワード
+keywords = "数理最適化,オペレーションズ・リサーチ,Atsushi Hori"   # SEO用キーワード
 author = "Atsushi Hori" # 必須
 profile = "自己紹介を書いて" # 必須
 displayauthor = false # 記事自体に書いた人を表示するかどうか
@@ -27,4 +27,4 @@ theme = "monokai-sublime" # highlight.jsのテーマ名 必須
 
 [[params.social]]
 url = "https://github.com/Keith-Campbell"   # Githubアカウント
-Fa_icon_class = "fab fa-github"
+fa_icon_class = "fab fa-github"
