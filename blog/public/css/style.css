@@ -6,6 +6,7 @@
 }
 html, body {
   height: 100%;
+  min-width: 150px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, Arial, sans-serif;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
