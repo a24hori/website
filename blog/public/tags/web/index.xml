@@ -18,10 +18,10 @@
       <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
       
       <guid>https://helloa24.com/blog/posts/20191013/</guid>
-      <description>Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．
-公開方法は以下のようになる． まずフォルダ構成であるが，次のように配置した．
-website/ ├.next/ ├blog/ # hugoをインストールしたディレクトリ ├content/ ├posts └[記事名].md ├public/ # hugoコマンドをしたときに作成される公開向けのディレクトリ ├static/ ├images/ # ブログで公開する画像を保管するディレクトリ ├components/ ...etc... ├out # npm run build ; npm run export した際に生成される公開向けディレクトリ ├(blog/) # out 生成後に作成予定のブログ用公開ディレクトリ  私は静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
-こうすることで，ウェブサイトと同じドメイン上でhugoで作成したブログページをhttp://example.com/blogの形で公開することができた</description>
+      <description>&lt;p&gt;Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．&lt;/p&gt;
+
+&lt;p&gt;公開方法は以下のようになる．
+まずフォルダ構成であるが，次のように配置した．&lt;/p&gt;</description>
     </item>
     
   </channel>

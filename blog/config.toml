@@ -2,9 +2,7 @@ baseURL = "https://helloa24.com/blog/"
 languageCode = "ja-jp"
 title = "Planetarium"
 theme = "Memorandum"
-
 sCJKLanguage = true
-
 copyright = "&copy; 2018 A24H"
 disqusShortname = ""               # DISQUSでユーザー登録、Adminから新規サイトを作ってそのショートネームを設定
 #googleAnalytics = ""               # google Analyticsの追跡タグ 追跡が要らなかったら行ごと削除
