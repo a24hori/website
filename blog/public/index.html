@@ -39,7 +39,7 @@
     
     <article>
       <p class="meta-date">2019-10-13 </p>
-      <h1 class="title"><a href="https://helloa24.com/blog/posts/20191013/">20191013</a></h1>
+      <h1 class="title"><a href="https://helloa24.com/blog/posts/20191013/">初デプロイ完了</a></h1>
       <div class="post-meta">
         <p class="meta-categories">
           
@@ -68,7 +68,10 @@
         </p>
       </div>
       <p class="content content-summary">
-        h2 本文です
+        Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．
+公開方法は以下のようになる． まずデプロuは，私静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
+$f(x)=3x+2$
+$$ g(t)=t^2 $$
       </p>
       
     </article>
@@ -119,5 +122,11 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 </body>

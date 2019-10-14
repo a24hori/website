@@ -1,2 +1,3 @@
 .htaccess
 /.next
+deploy_website.sh

@@ -13,12 +13,15 @@
     
     
     <item>
-      <title>20191013</title>
+      <title>初デプロイ完了</title>
       <link>https://helloa24.com/blog/posts/20191013/</link>
       <pubDate>Sun, 13 Oct 2019 18:47:48 +0900</pubDate>
       
       <guid>https://helloa24.com/blog/posts/20191013/</guid>
-      <description>h2 本文です</description>
+      <description>Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．
+公開方法は以下のようになる． まずデプロuは，私静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
+$f(x)=3x+2$
+$$ g(t)=t^2 $$</description>
     </item>
     
   </channel>
