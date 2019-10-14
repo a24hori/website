@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta content="数理最適化, オペレーションズ・リサーチ" name="keywords">
 <meta content="A24H" name="author">
-<meta property="og:title" content="初デプロイ完了 - Planetarium">
-<meta property="og:url" content="https://helloa24.com/blog/posts/20191013/">
+<meta property="og:title" content="web - Planetarium">
+<meta property="og:url" content="https://helloa24.com/blog/tags/web/">
 <meta property="og:description" content="技術メモ（最適化数学関連）兼日記です">
 <meta property="og:type" content="website" />
-<title>初デプロイ完了 | Planetarium</title>
+<title>web | Planetarium</title>
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Handlee">
@@ -33,11 +33,12 @@
   </div>
 </header>
 
-<main class="single">
+<main class="list">
   <div class="container">
+    
     <article>
       <p class="meta-date">2019-10-13 </p>
-      <h1 class="title">初デプロイ完了</h1>
+      <h1 class="title"><a href="https://helloa24.com/blog/posts/20191013/">初デプロイ完了</a></h1>
       <div class="post-meta">
         <p class="meta-categories">
           
@@ -65,48 +66,29 @@
           
         </p>
       </div>
-      <div class="content">
-        <p>Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．</p>
-
-<p>公開方法は以下のようになる．
-まずフォルダ構成であるが，次のように配置した．</p>
-
-<pre><code class="language-text">website/
-    ├.next/
-    ├blog/ # hugoをインストールしたディレクトリ
-        ├content/
-            ├posts
-                └[記事名].md
-        ├public/ # hugoコマンドをしたときに作成される公開向けのディレクトリ
-
-        ├static/
-            ├images/ # ブログで公開する画像を保管するディレクトリ
-    ├components/
-    ...etc...
-    ├out # npm run build ; npm run export した際に生成される公開向けディレクトリ
-        ├(blog/) # out 生成後に作成予定のブログ用公開ディレクトリ
-</code></pre>
-
-<p>私は静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandは<code>npm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blog</code>としている．ディレクトリ名<code>out</code>と<code>public</code>はそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．</p>
-
-<p><img src="../../static/image/screenshot&amp;#32;2019-10-14&amp;#32;13.28.51.png" alt="img" /></p>
-
-<p>こうすることで，ウェブサイトと同じドメイン上でhugoで作成したブログページを<code>http://example.com/blog</code>の形で公開することができた．</p>
-
-      </div>
+      <p class="content content-summary">
+        Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．
+公開方法は以下のようになる． まずフォルダ構成であるが，次のように配置した．
+website/ ├.next/ ├blog/ # hugoをインストールしたディレクトリ ├content/ ├posts └[記事名].md ├public/ # hugoコマンドをしたときに作成される公開向けのディレクトリ ├static/ ├images/ # ブログで公開する画像を保管するディレクトリ ├components/ ...etc... ├out # npm run build ; npm run export した際に生成される公開向けディレクトリ ├(blog/) # out 生成後に作成予定のブログ用公開ディレクトリ  私は静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
+こうすることで，ウェブサイトと同じドメイン上でhugoで作成したブログページをhttp://example.com/blogの形で公開することができた．
+      </p>
+      
     </article>
-
-    
-    <aside class="share">
-  <a class="twitter" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fhelloa24.com%2fblog%2fposts%2f20191013%2f&text=%e5%88%9d%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e5%ae%8c%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href, 'shareWindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-twitter"></i></a>
-  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhelloa24.com%2fblog%2fposts%2f20191013%2f&t=%e5%88%9d%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e5%ae%8c%e4%ba%86" onclick="window.open(this.href, 'shareWindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook"></i></a>
-</aside>
-
     
   </div>
 </main>
-
-
+<section class="pagination">
+  <div class="container">
+    <nav class="pagination-nav">
+      <div class="pagination-prev">
+        
+      </div>
+      <div class="pagination-next">
+        
+      </div>
+    </nav>
+  </div>
+</section>
 
 <footer>
   <div class="container">
@@ -147,3 +129,4 @@
 <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 </body>
+

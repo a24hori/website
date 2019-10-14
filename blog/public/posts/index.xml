@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on Planetarium</title>
     <link>https://helloa24.com/blog/posts/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in Posts on Planetarium</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>&amp;copy; 2018 Atsushi Hori</copyright>
-    <lastBuildDate>Sun, 13 Oct 2019 18:47:48 +0900</lastBuildDate>
+    <copyright>&amp;copy; 2018 A24H</copyright>
+    <lastBuildDate>Sun, 13 Oct 2019 20:20:48 +0900</lastBuildDate>
     
 	<atom:link href="https://helloa24.com/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,13 +15,13 @@
     <item>
       <title>初デプロイ完了</title>
       <link>https://helloa24.com/blog/posts/20191013/</link>
-      <pubDate>Sun, 13 Oct 2019 18:47:48 +0900</pubDate>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
       
       <guid>https://helloa24.com/blog/posts/20191013/</guid>
       <description>Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．
-公開方法は以下のようになる． まずデプロuは，私静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
-$f(x)=3x+2$
-$$ g(t)=t^2 $$</description>
+公開方法は以下のようになる． まずフォルダ構成であるが，次のように配置した．
+website/ ├.next/ ├blog/ # hugoをインストールしたディレクトリ ├content/ ├posts └[記事名].md ├public/ # hugoコマンドをしたときに作成される公開向けのディレクトリ ├static/ ├images/ # ブログで公開する画像を保管するディレクトリ ├components/ ...etc... ├out # npm run build ; npm run export した際に生成される公開向けディレクトリ ├(blog/) # out 生成後に作成予定のブログ用公開ディレクトリ  私は静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandはnpm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blogとしている．ディレクトリ名outとpublicはそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．
+こうすることで，ウェブサイトと同じドメイン上でhugoで作成したブログページをhttp://example.com/blogの形で公開することができた．</description>
     </item>
     
   </channel>

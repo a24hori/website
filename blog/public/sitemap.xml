@@ -3,28 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://helloa24.com/blog/</loc>
-    <lastmod>2019-10-13T18:47:48+09:00</lastmod>
+    <loc>https://helloa24.com/blog/categories/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/categories/</loc>
-    <lastmod>2019-10-13T18:47:48+09:00</lastmod>
+    <loc>https://helloa24.com/blog/categories/develop/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/posts/</loc>
-    <lastmod>2019-10-13T18:47:48+09:00</lastmod>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/</loc>
-    <lastmod>2019-10-13T18:47:48+09:00</lastmod>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/test/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/tags/web/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/web/</loc>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/posts/20191013/</loc>
-    <lastmod>2019-10-13T18:47:48+09:00</lastmod>
+    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
 </urlset>

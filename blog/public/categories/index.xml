@@ -1,16 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on </title>
+    <title>Categories on Planetarium</title>
     <link>https://helloa24.com/blog/categories/</link>
-    <description>Recent content in Categories on </description>
+    <description>Recent content in Categories on Planetarium</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <copyright>&amp;copy; 2018 Atsushi Hori</copyright>
-    <lastBuildDate>Sun, 13 Oct 2019 18:47:48 +0900</lastBuildDate>
+    <copyright>&amp;copy; 2018 A24H</copyright>
+    <lastBuildDate>Sun, 13 Oct 2019 20:20:48 +0900</lastBuildDate>
     
 	<atom:link href="https://helloa24.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>develop</title>
+      <link>https://helloa24.com/blog/categories/develop/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://helloa24.com/blog/categories/test/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://helloa24.com/blog/categories/web/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/web/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
