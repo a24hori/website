@@ -24,9 +24,18 @@
     <item>
       <title>develop</title>
       <link>https://helloa24.com/blog/categories/develop/</link>
-      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      <pubDate>Tue, 15 Oct 2019 08:01:08 +0900</pubDate>
       
       <guid>https://helloa24.com/blog/categories/develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://helloa24.com/blog/categories/web/</link>
+      <pubDate>Tue, 15 Oct 2019 08:01:08 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/web/</guid>
       <description></description>
     </item>
     
@@ -36,15 +45,6 @@
       <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
       
       <guid>https://helloa24.com/blog/categories/test/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>web</title>
-      <link>https://helloa24.com/blog/categories/web/</link>
-      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
-      
-      <guid>https://helloa24.com/blog/categories/web/</guid>
       <description></description>
     </item>
     

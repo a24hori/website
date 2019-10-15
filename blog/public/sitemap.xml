@@ -13,12 +13,12 @@
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/categories/diary/</loc>
+    <loc>https://helloa24.com/blog/tags/diary/</loc>
     <lastmod>2019-10-15T18:29:14+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/tags/diary/</loc>
+    <loc>https://helloa24.com/blog/categories/diary/</loc>
     <lastmod>2019-10-15T18:29:14+09:00</lastmod>
   </url>
   
@@ -44,21 +44,26 @@
   
   <url>
     <loc>https://helloa24.com/blog/categories/develop/</loc>
-    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://helloa24.com/blog/categories/test/</loc>
-    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://helloa24.com/blog/categories/web/</loc>
-    <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+    <lastmod>2019-10-15T08:01:08+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/web/</loc>
+    <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/web/</loc>
+    <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/posts/20191015/</loc>
+    <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/test/</loc>
     <lastmod>2019-10-13T20:20:48+09:00</lastmod>
   </url>
   
