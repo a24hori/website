@@ -2,3 +2,4 @@
 /.next
 deploy_website.sh
 node_modules
+.vscode

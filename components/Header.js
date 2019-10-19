@@ -19,6 +19,9 @@ const Header = () => (
     <Link href="/blog">
         <a style={linkStyle}>Blog</a>
     </Link>
+    <Link href="https://twitter.com/keithca47562610">
+        <a style={linkStyle}>Twitter</a>
+    </Link>
   </div>
 );
 
