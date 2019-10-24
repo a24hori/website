@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <copyright>&amp;copy; 2019 A24H</copyright>
-    <lastBuildDate>Sat, 19 Oct 2019 09:42:18 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2019 23:55:09 +0900</lastBuildDate>
     
 	<atom:link href="https://helloa24.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>https://helloa24.com/blog/tags/</link>
+      <pubDate>Tue, 22 Oct 2019 23:55:09 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/tags/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>surface pro</title>

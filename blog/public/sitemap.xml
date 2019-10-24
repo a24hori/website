@@ -3,33 +3,44 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://helloa24.com/blog/tags/</loc>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://helloa24.com/blog/categories/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/categories/gadget/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://helloa24.com/blog/categories/pc/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <loc>https://helloa24.com/blog/categories/</loc>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/posts/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/tags/surface-pro/</loc>
-    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <loc>https://helloa24.com/blog/tags/</loc>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/posts/20191022/</loc>
+    <lastmod>2019-10-22T23:55:09+09:00</lastmod>
   </url>
   
   <url>
@@ -38,28 +49,45 @@
   </url>
   
   <url>
-    <loc>https://helloa24.com/blog/tags/</loc>
+    <loc>https://helloa24.com/blog/categories/gadget/</loc>
     <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/pc/</loc>
+    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/tags/surface-pro/</loc>
+    <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/windows/</loc>
     <lastmod>2019-10-19T09:42:18+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/autumn/</loc>
     <lastmod>2019-10-15T18:29:14+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://helloa24.com/blog/categories/diary/</loc>
-    <lastmod>2019-10-15T18:29:14+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/diary/</loc>
     <lastmod>2019-10-15T18:29:14+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://helloa24.com/blog/categories/diary/</loc>
+    <lastmod>2019-10-15T18:29:14+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -70,16 +98,19 @@
   <url>
     <loc>https://helloa24.com/blog/categories/develop/</loc>
     <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/tags/web/</loc>
     <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://helloa24.com/blog/categories/web/</loc>
     <lastmod>2019-10-15T08:01:08+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -90,6 +121,7 @@
   <url>
     <loc>https://helloa24.com/blog/categories/test/</loc>
     <lastmod>2019-10-13T20:20:48+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
