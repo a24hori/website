@@ -12,6 +12,10 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/optmath": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/posts/hello-world": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

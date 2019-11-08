@@ -11304,20 +11304,10 @@ function (_App) {
           lineNumber: 12
         },
         __self: this
-      }, __jsx("link", {
-        rel: "stylesheet",
-        href: "https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css",
-        integrity: "sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG",
-        crossOrigin: "anonymous",
+      }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
-        },
-        __self: this
-      }), __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
         },
         __self: this
       }))));

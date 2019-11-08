@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Keith-Campbell/website#readme",
   "dependencies": {
+    "@mdx-js/loader": "^1.5.1",
     "@mdx-js/mdx": "^1.5.1",
     "@next/mdx": "^9.1.2",
     "@zeit/next-mdx": "^1.2.0",
