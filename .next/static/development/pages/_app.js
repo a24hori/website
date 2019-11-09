@@ -26,7 +26,7 @@ var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    fon
 
 var SiteTitle = function SiteTitle(_ref) {
   var isHomepage = _ref.isHomepage;
-  var title = "A24H's website (under construction)";
+  var title = "A24H's website";
 
   if (isHomepage) {
     return __jsx("h1", {

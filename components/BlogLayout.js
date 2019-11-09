@@ -41,7 +41,7 @@ const globalStyles = `
 `
 
 const SiteTitle = ({ isHomepage }) => {
-  const title = "A24H's website (under construction)"
+  const title = "A24H's website"
   if (isHomepage) {
     return (
       <h1 className='siteTitle'>{title}</h1>

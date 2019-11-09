@@ -8,7 +8,7 @@ export default () => {
 			<Head>
 				<title>A24H | Top</title>
 			</Head>
-			<p>現在ウェブサイト作成中ですm(_ _)m（2019年10月21日現在）</p>
+			<p>現在ウェブサイト作成中ですm(_ _)m（2019年11月10日現在）</p>
 		  </Layout>
 	);
 };

@@ -9,7 +9,8 @@ const PostPreview = ({ post, prefetch }) => {
       <p>
         <Link href={post.urlPath} prefetch={prefetch}><a>
           {post.title}
-        </a></Link>
+        </a>
+        </Link>
       </p>
     </div>
   )
@@ -21,9 +22,9 @@ export default () => {
             <Head>
                 <title>A24H | OptMath (Optimization Mathematics)</title>
             </Head>
-            <h3>OptMath</h3>
+            <h3>OptMath (Optimization Mathematics)</h3>
             {posts.map((post, i) => (
-            <PostPreview key={i} post={post} prefetch={i < 3} />
+              <PostPreview key={i} post={post} prefetch={i < 3} />
             ))}
         </Layout>
     )
