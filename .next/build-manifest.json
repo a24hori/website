@@ -16,15 +16,23 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
+    "/_polyfills": [
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/next/dist/pages/_error": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/optmath": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/posts/hello-world": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
