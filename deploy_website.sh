@@ -1,9 +1,11 @@
 #!/bin/bash
 # build hugo blog
-cd blog/
-rm -r public/
-hugo
-cd ../
+if [ $2="true" ] ; then
+    cd blog/
+    rm -r public/
+    hugo
+    cd ../
+fi
 # git push
 git add --all
 git commit -m "$1"

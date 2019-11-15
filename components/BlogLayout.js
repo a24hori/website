@@ -18,6 +18,11 @@ const globalStyles = `
     color: #33f;
   }
 
+  code {
+    text-align: center;
+    font-family: monospace;
+  }
+  
   .contentContainer {
     max-width: 700px;
     margin: 0 auto;

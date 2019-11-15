@@ -109,7 +109,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _posts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../posts */ "./posts.js");
-var _jsxFileName = "/mnt/c/Users/javi0/Resilio Sync/website/components/BlogLayout.js";
+var _jsxFileName = "/home/atsushihori/Documents/website/components/BlogLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -131,6 +131,11 @@ const globalStyles = `
     color: #33f;
   }
 
+  code {
+    text-align: center;
+    font-family: monospace;
+  }
+  
   .contentContainer {
     max-width: 700px;
     margin: 0 auto;
@@ -163,7 +168,7 @@ const SiteTitle = ({
       className: "siteTitle",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47
+        lineNumber: 52
       },
       __self: undefined
     }, title);
@@ -172,20 +177,20 @@ const SiteTitle = ({
       className: "siteTitle",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51
+        lineNumber: 56
       },
       __self: undefined
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 57
       },
       __self: undefined
     }, __jsx("a", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52
+        lineNumber: 57
       },
       __self: undefined
     }, title)));
@@ -203,39 +208,39 @@ const SiteTitle = ({
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 69
     },
     __self: undefined
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: undefined
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 71
     },
     __self: undefined
   }, title), __jsx("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 72
     },
     __self: undefined
   }, globalStyles)), __jsx("div", {
     className: "contentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 74
     },
     __self: undefined
   }, __jsx(SiteTitle, {
     isHomepage: pathname === '/',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 75
     },
     __self: undefined
   }), children));
@@ -2243,7 +2248,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _components_BlogLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/BlogLayout */ "./components/BlogLayout.js");
 
-var _jsxFileName = "/mnt/c/Users/javi0/Resilio Sync/website/pages/_app.js";
+var _jsxFileName = "/home/atsushihori/Documents/website/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
