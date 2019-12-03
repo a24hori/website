@@ -2288,7 +2288,7 @@ __webpack_require__.r(__webpack_exports__);
   "filePath": "pages/posts/20191202.mdx",
   "urlPath": "/posts/20191202",
   "title": "準凸最適化問題に対する最適化手法",
-  "publishDate": "2019-12-02T08:29:54.121Z"
+  "publishDate": "2019-12-03T08:29:54.121Z"
 }, {
   "filePath": "pages/posts/hello-world.mdx",
   "urlPath": "/posts/hello-world",

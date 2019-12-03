@@ -86,10 +86,9 @@ function main() {
   const postPaths = scanDir('pages', '.mdx')
   console.debug({ postPaths })
   const now = new Date()
-  console.debug("now date")
   const posts = postPaths
     .map(readPostMetadata)
-    .filter(post => post.publishDate <= now)
+    //.filter(post => post.publishDate <= now)
   console.debug("--posts mapped--")
   console.debug(posts)
   posts.sort((a, b) => b.publishDate - a.publishDate)
