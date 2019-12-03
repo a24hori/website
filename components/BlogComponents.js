@@ -10,7 +10,7 @@ const defTitle = {
     left: 20,
     top: -15,
     fontWeight: 'bold',
-    backgroundColor: '#fff',
+    //backgroundColor: '#fff',
     color: '#555555',
 };
 

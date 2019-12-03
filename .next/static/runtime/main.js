@@ -5131,7 +5131,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/atsushihori/Documents/website/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/javi0/Resilio_Sync/website/.next");
       return error;
     }
   };

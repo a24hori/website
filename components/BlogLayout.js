@@ -47,22 +47,14 @@ const globalStyles = `
 
 const SiteTitle = ({ isHomepage }) => {
   const title = "A24H's website"
-  if (isHomepage) {
-    return (
-      <h1 className='siteTitle'>{title}</h1>
-    )
-  } else {
-    return (
-      <div className='siteTitle'>
-        <Link href='/'><a>{title}</a></Link>
-      </div>
-    )
-  }
+  return (
+    <div className='siteTitle'>
+      <Link href='/'><a>{title}</a></Link>
+    </div>
+  )
 }
 
 export default ({ pathname, children }) => {
-    console.log(pathname);
-    console.log(children);
   const post = posts.find(post => post.urlPath === pathname)
   const title = post ? post.title : "A24H's website"
   return (

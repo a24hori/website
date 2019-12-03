@@ -1,0 +1,114 @@
+import Def from '../../components/BlogComponents';
+import Footer from '../../components/Footer';
+export const meta = {
+  publishDate: '2019-12-02T08:29:54.121Z',
+  title: '準凸最適化問題に対する最適化手法',
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossOrigin="anonymous"/>
+
+準凸最適化問題に対する最適化手法
+=====
+
+　本記事では，制約付き準凸最適化問題に対する最適化手法を述べる．凸最適化問題は良く知られた Karush-Kuhn-Tucker 条件を解くことで最適性の必要十分性から大域的最適解が求まるが，目的関数が準凸関数の場合必ずしも，大域的最適解は求まらない．そこで，今回は目的関数が準凸関数である準凸最適化問題に対する大域的最適化手法を紹介する．
+
+　本記事を執筆するにあたり，文献 \[BV2004\] を参考にした．
+
+## 準凸関数
+　まず，準凸関数はあまりなじみのない概念だと思うので，その定義を紹介しておく．
+
+**定義（準凸関数）**
+>　関数 $f:\mathrm{R}^n\rightarrow\mathrm{R}$ が準凸（単峰）関数であるとは，定義域 $\mathrm{dom}f$ と $\forall\alpha\in\mathrm{R}$ のサブレベル集合
+>$$
+>S_\alpha :=\{x\in\mathrm{dom} f\ |\ f(x)\leq\alpha \}
+>$$
+>が凸集合となることである．
+
+　凸関数でないが，準凸関数である例を以下に示す．
+
+<center><img src='/static/quasifunc.PNG' width='40%' /></center>
+
+　準凸関数を特徴づける関係式は他にもいくつか存在し，以下は準凸関数の定義として用いられることもある．
+
+**定理（準凸関数）**
+>　関数 $f$ が準凸関数ならば，任意の $x,y\in\mathrm{dom}f$ と $0\leq\theta\leq 1$ に対して
+>$$
+>f(\theta x+(1-\theta)y)\leq\max\{f(x),f(y)\}
+>$$
+>を満たし，逆も成り立つ．
+
+## 準凸最適化問題
+　以下の最適化問題 ($\mathrm{P}$) に対する最適化手法を述べる．まず，問題の定義を行う．
+
+$$
+(\mathrm{P})\ \ \mathrm{minimize}\ f(x)\ \mathrm{subject\ to}\ g(x)\leq 0,\ Ax=b
+$$
+
+ただし，$f:\mathrm{R}^n\rightarrow\mathrm{R}$ は準凸関数とし，$g_i:\mathrm{R}^n\rightarrow\mathrm{R}$ は凸関数とし，$A\in\mathrm{R}^{m\times n},\ b\in\mathrm{R}^m$ とする．また，実行可能集合を$X$と定義する．
+
+次に，($\mathrm{P}$) に対するパラメータ付き実行可能性問題
+
+$$
+(\mathrm{P}_F(t))\ \ \mathrm{find}\ x\ \mathrm{such\ that}\ \phi_t(x)\leq 0,\ g(x)\leq 0,\ Ax=b
+$$
+
+を考える．ただし，$\phi_t$ は以下の関係を満たす凸関数系であり，実行可能集合を$X_t$と定義する．
+
+$$
+f(x)\leq t \Leftrightarrow \phi_t(x)\leq 0\ (t\in\mathrm{R})
+$$
+
+さらに，$\phi_t$ はパラメータ $t$ に関して非増加であるとする．すなわち，$\forall s,t,\ s\leq t\rightarrow\phi_s(x)\geq \phi_t(x)$ とする．
+
+　値 $p^*$ を問題 ($\mathrm{P}$) の最適値とするとき，所与の $t$ に対して，($\mathrm{P}_F(t)$) が実行可能であれば，$p^*\leq t$ が成り立つが，実行可能でなければ $p^*\geq t$ となる．
+
+　したがって，準凸最適化問題 ($\mathrm{P}$) を解く代わりに実行可能性問題 ($\mathrm{P}_F(t)$) を解くことで大域的最適解を求めることができる．
+
+---
+
+**Alg. Bisection method for quasiconvex optimization**
+
+given $l\leq p^*,\ u\geq p^*$, tolerance $\varepsilon >0$
+
+repeat
+
+ 1. $t:=(l+u)/2$
+
+ 2. Solve ($\mathrm{P}_F(t)$)
+ 
+ 3. **If** the solution to ($\mathrm{P}_F(t)$) is feasible, $u:=t$;<br/>**else** $l:=t$;
+
+until $u-l\leq\varepsilon$
+
+---
+
+　このアルゴリズムは一見最適値を必要とするように見えるが，初期値 $l,\ u$ はそれぞれ，関数 $f$ の下界，下限より大きい値（下界に属さない値）を任意にとればいいので，$p^*$ を厳密に知る必要はない（というより，当然だが，$p^*$ がわかっていれば，問題を解く意味もほとんどなくなる）
+
+　実行可能集合が（空でなければ）凸集合な実行可能性問題を解くためには，射影法を用いればよい（実行可能集合が空でなければ，射影は存在するため，射影アルゴリズムは正常に終了する．逆に空であれば，射影は存在しないため，射影アルゴリズムは `infeasible` を出力する）．
+
+　射影アルゴリズムを紹介しておく．
+
+---
+
+**Alg. Projection method for convex feasibility problems**
+
+given $x\in\mathrm{R}^n$
+
+Solve the following optimization problem:
+
+$$
+\underset{z}{\mathrm{minimize}}\ ||z-x||\ \mathrm{subject\ to}\ z\in X_t
+$$
+
+If there exists a solution to the optimization problem above, return `feasible`;<br/>
+else return `infeasible`;
+
+---
+
+## 参考文献
+
+\[BV2004\] Boyd, Stephen, and Lieven Vandenberghe. Convex optimization. *Cambridge university press*, 2004.
+
+---
+
+<Footer />

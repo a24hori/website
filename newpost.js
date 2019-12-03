@@ -15,8 +15,11 @@ const D = zeroPadding(date.getDate());
 const date_json = date.toJSON();
 
 const template = `
+import Def from '../../components/BlogComponents'
+import Footer from '../../components/Footer'
+
 export const meta = {
-  date = '${date_json}',
+  publishDate = '${date_json}',
   title: ,
 }
 
