@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import Button from '@material-ui/core/Button';
 
 const linkStyle = {
-  marginRight: 15
+  marginRight: 15,
+  backgroundColor: "#fff",
 };
 
 const Header = () => (
@@ -11,20 +13,23 @@ const Header = () => (
         <link rel="shortcut icon" href="/static/favicon.ico" />
     </Head>
     <Link href="/">
-      <a style={linkStyle}>Home</a>
+      <Button>Home</Button>
     </Link>
     <Link href="/about">
-      <a style={linkStyle}>About</a>
+      <Button>About</Button>
     </Link>
     <Link href="/optmath">
-      <a style={linkStyle}>OptMath</a>
+      <Button>OptMath</Button>
     </Link>
     <Link href="/blog">
-        <a style={linkStyle}>Blog</a>
+      <Button>Blog</Button>
     </Link>
-    <Link href="https://twitter.com/keithca47562610">
-        <a style={linkStyle}>Twitter</a>
-    </Link>
+    <a href="https://twitter.com/keithca47562610">
+      <Button>Twitter</Button>
+    </a>
+    <a href="https://github.com/Keith-Campbell">
+      <Button>Github</Button>
+    </a>
   </div>
 );
 
