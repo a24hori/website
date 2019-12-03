@@ -1,6 +1,6 @@
 #!/bin/bash
 # build hugo blog
-if [ $2="true" ] ; then
+if [ "$2"="true" ] ; then
     cd blog/
     rm -r public/
     hugo

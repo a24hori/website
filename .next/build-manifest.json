@@ -1,48 +1,36 @@
 {
-  "devFiles": [],
+  "devFiles": [
+    "static/development/dll/dll_8772fad7cd8f73fc1eec.js",
+    "static/development/dll/dll_8772fad7cd8f73fc1eec.js.map"
+  ],
   "pages": {
     "/": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_app": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_error": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/_polyfills": [
-      "static/runtime/polyfills-0b79e9d0d98c13999cc6.js"
-    ],
-    "/about": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/polyfills.js",
+      "static/runtime/polyfills.js.map"
     ],
     "/index": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/optmath": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/posts/20191202": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
-    ],
-    "/posts/hello-world": [
-      "static/runtime/webpack-08f7b238829422e3b9b2.js",
-      "static/chunks/commons.7a08d227ed6a94e3b0cd.js",
-      "static/runtime/main-63e19419df31bcd026e6.js"
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

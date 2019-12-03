@@ -22,7 +22,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 16px;\n  }\n\n  a {\n    color: #00c;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 700px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
+var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 16px;\n  }\n\n  a {\n    color: #00c;\n    text-decoration: none;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 700px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
 
 var SiteTitle = function SiteTitle(_ref) {
   var isHomepage = _ref.isHomepage;
@@ -31,20 +31,20 @@ var SiteTitle = function SiteTitle(_ref) {
     className: "siteTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 52
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: this
   }, title)));
@@ -60,39 +60,39 @@ var SiteTitle = function SiteTitle(_ref) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: this
   }, title), __jsx("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: this
   }, globalStyles)), __jsx("div", {
     className: "contentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 67
     },
     __self: this
   }, __jsx(SiteTitle, {
     isHomepage: pathname === '/',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: this
   }), children));
@@ -11581,11 +11581,6 @@ __webpack_require__.r(__webpack_exports__);
   "urlPath": "/posts/20191202",
   "title": "準凸最適化問題に対する最適化手法",
   "publishDate": "2019-12-03T08:29:54.121Z"
-}, {
-  "filePath": "pages/posts/hello-world.mdx",
-  "urlPath": "/posts/hello-world",
-  "title": "Hello, World!",
-  "publishDate": "2018-05-10T12:00:00.000Z"
 }]);
 
 /***/ }),

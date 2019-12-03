@@ -13,6 +13,7 @@ const globalStyles = `
 
   a {
     color: #00c;
+    text-decoration: none;
   }
   a:hover {
     color: #33f;

@@ -126,6 +126,7 @@ const globalStyles = `
 
   a {
     color: #00c;
+    text-decoration: none;
   }
   a:hover {
     color: #33f;
@@ -166,20 +167,20 @@ const SiteTitle = ({
     className: "siteTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 52
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: undefined
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 53
     },
     __self: undefined
   }, title)));
@@ -194,39 +195,39 @@ const SiteTitle = ({
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 62
     },
     __self: undefined
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: undefined
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 64
     },
     __self: undefined
   }, title), __jsx("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 65
     },
     __self: undefined
   }, globalStyles)), __jsx("div", {
     className: "contentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 67
     },
     __self: undefined
   }, __jsx(SiteTitle, {
     isHomepage: pathname === '/',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 68
     },
     __self: undefined
   }), children));
@@ -2289,11 +2290,6 @@ __webpack_require__.r(__webpack_exports__);
   "urlPath": "/posts/20191202",
   "title": "準凸最適化問題に対する最適化手法",
   "publishDate": "2019-12-03T08:29:54.121Z"
-}, {
-  "filePath": "pages/posts/hello-world.mdx",
-  "urlPath": "/posts/hello-world",
-  "title": "Hello, World!",
-  "publishDate": "2018-05-10T12:00:00.000Z"
 }]);
 
 /***/ }),
