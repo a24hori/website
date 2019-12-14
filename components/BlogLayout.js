@@ -63,6 +63,7 @@ export default ({ pathname, children }) => {
       <Head>
         <title>{title}</title>
         <style>{globalStyles}</style>
+        <meta name="keywords" content={posts.keywords} />
       </Head>
       <div className='contentContainer'>
         <SiteTitle isHomepage={pathname === '/'} />

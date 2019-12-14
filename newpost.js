@@ -19,8 +19,9 @@ import Def from '../../components/BlogComponents'
 import Footer from '../../components/Footer'
 
 export const meta = {
-  publishDate = '${date_json}',
-  title: ,
+  publishDate: '${date_json}',
+  title: '',
+  keywords: '',
 }
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossOrigin="anonymous"/>
@@ -28,7 +29,11 @@ export const meta = {
 Title
 =====
 
+<div>Generated: { meta.publishDate }</div>
+
 Contents
+
+<Footer />
 `;
 
 fs.writeFile(`./pages/posts/${Y}${M}${D}.mdx`, template, "utf-8", err => {

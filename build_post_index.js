@@ -74,11 +74,13 @@ function readPostMetadata(postPath) {
   })
   const title = fdata.match(/(?<=(^\s+title:\s')).*?(?=')/gm)
   const publishDate = fdata.match(/(?<=(^\s+publishDate:\s')).*?(?=')/gm)
+  const keywords = fdata.match(/(?<=(^\s+keywords:\s')).*?(?=')/gm)
   return {
     filePath: postPath,
     urlPath: postPath.replace(/\\/, '/').replace(/^pages/, '').replace(/\.mdx?$/, ''),
     title: title[0],
     publishDate: new Date(publishDate),
+    keywords: keywords[0],
   }
 }
 
