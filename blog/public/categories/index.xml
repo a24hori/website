@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Planetarium *:&gt;</title>
+    <link>https://helloa24.com/blog/categories/</link>
+    <description>Recent content in Categories on Planetarium *:&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>&amp;copy; 2019 A24H</copyright>
+    <lastBuildDate>Sat, 26 Oct 2019 09:08:19 +0900</lastBuildDate>
+    
+	<atom:link href="https://helloa24.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ASD</title>
+      <link>https://helloa24.com/blog/categories/asd/</link>
+      <pubDate>Sat, 26 Oct 2019 09:08:19 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/asd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disorder</title>
+      <link>https://helloa24.com/blog/categories/disorder/</link>
+      <pubDate>Sat, 26 Oct 2019 09:08:19 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/disorder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gadget</title>
+      <link>https://helloa24.com/blog/categories/gadget/</link>
+      <pubDate>Sat, 19 Oct 2019 09:42:18 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/gadget/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pc</title>
+      <link>https://helloa24.com/blog/categories/pc/</link>
+      <pubDate>Sat, 19 Oct 2019 09:42:18 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/pc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>diary</title>
+      <link>https://helloa24.com/blog/categories/diary/</link>
+      <pubDate>Tue, 15 Oct 2019 18:29:14 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>develop</title>
+      <link>https://helloa24.com/blog/categories/develop/</link>
+      <pubDate>Tue, 15 Oct 2019 08:01:08 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/develop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://helloa24.com/blog/categories/web/</link>
+      <pubDate>Tue, 15 Oct 2019 08:01:08 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://helloa24.com/blog/categories/test/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/categories/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
