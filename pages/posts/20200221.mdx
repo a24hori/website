@@ -1,0 +1,183 @@
+
+import Def from '../../components/BlogComponents'
+import Footer from '../../components/Footer'
+
+export const meta = {
+  publishDate: '2020-02-21T12:29:38.622Z',
+  title: '標示関数の劣微分と法線錐の関係（凸解析）',
+  keywords: 'normal cone,法線錐,subdifferential,劣微分,最適性条件,凸解析',
+}
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossOrigin="anonymous"/>
+
+標示関数の劣微分と法線錐の関係
+=====
+
+<div>Generated: { meta.publishDate }</div>
+
+## 導入
+
+　本記事では，以下の凸最適化問題に対する停留条件を考え，標示関数の劣微分と法線錐との関係について述べる．
+
+$$
+\begin{aligned}(\mathrm{P})
+\begin{array}{cl}
+\mathrm{minimize} & f(x)\\
+\mathrm{subject\ to} & x\in S
+\end{array}
+\end{aligned}
+$$
+
+ただし，関数 $f\colon\mathrm{R}^n\rightarrow\mathrm{R}$ は微分可能な凸関数とし，集合 $S\subseteq\mathrm{R}^n$ は閉凸集合とする．
+
+　まずはじめに閉凸集合に対する法線錐を定義したのちに凸関数の劣微分を定義する．
+
+　以下は本記事で用いる記法である．
+
+>**実効定義域**（effective domain）: $\mathrm{dom\ }g:=\{x\in\mathrm{R}^n\mid g(x)<+\infty\}$
+
+>**レベル集合**（level set）: $L_g(x):=\{y\in\mathrm{R}^n\mid g(y)\leq g(x)\}$
+
+　本記事を執筆するうえで \[福島2001\] を参考にした．
+
+## 法線錐
+
+　法線錐を定義する前に，閉凸集合 $S$ の点 $x\in S$ における接錐（tangent cone）$T_S(x)$ を定義する．
+
+$$
+T_S(x):=\{y\in\mathrm{R}^n\mid y=\alpha(z-x),\ \alpha>0,\ z\in S\}
+$$
+
+**定理**
+
+>集合 $T_S(x)$ は錐である．
+
+*証明*
+
+>錐 $K\subset \mathrm{R}^n$ の定義 $x\in K\Rightarrow \alpha x\in K, \alpha >0$ より明らかである．■
+
+　これに対して，$T_S(x)$ に含まれるベクトルと90度以上をなすベクトルの集合を法線錐（normal cone）といい，次のように定義される．
+
+$$
+N_S(x):=\{y\in\mathrm{R}^n\mid y^\top z\leq 0,\ z\in T_S(x)\}
+$$
+
+<center><img src='/static/image/cone_image.PNG' width='40%' /></center>
+
+<center>図1: 接錐と法線錐の関係</center>
+
+法線錐 $N_S(x)$ は 接錐 $T_S(x)$ の定義から次のように書き換えられる．
+
+$$
+\begin{aligned}
+N_S(x)&=\{y\in\mathrm{R}^n\mid y^\top \alpha (z-x)\leq 0,\ \alpha>0,\ z\in S\}\\
+&=\{y\in\mathrm{R}^n\mid y^\top (z-x)\leq 0,\ z\in S\}
+\end{aligned}
+$$
+
+これで，問題 $(\mathrm{P})$ の停留条件の定義をする準備ができた．
+
+**定義（停留条件）**
+
+>　以下の条件を満たす点 $x\in\mathrm{R}^n$ は問題 $(\mathrm{P})$ の停留点（stationary point）という．
+>
+>$$
+>-\nabla f(x)\in N_S(x)
+>$$
+
+　これは無制約最適化問題
+
+$$
+\begin{aligned}
+\begin{array}{cl}
+\mathrm{minimize} & f(x) \\
+\mathrm{subject\ to} & x\in \mathrm{R}^n
+\end{array}
+\end{aligned}
+$$
+
+に対する停留条件
+
+$$
+\nabla f(x) = 0
+$$
+
+を一般化したものにほかならない．
+
+## 劣微分
+
+　次に凸関数に対する劣微分を定義する．
+
+**定義（劣微分）**
+>　凸関数 $g\colon\mathrm{R}^n\rightarrow\mathrm{R}$ の点 $x\in\mathrm{R}^n$ における**劣微分**（subdifferential）は次の関係を満たすベクトル $d\in\mathrm{R}^n$ の集合である．
+>
+>$$
+>\tag{1} g(y)-g(x)\geq d^\top (y-x),\ \forall y\in\mathrm{R}^n
+>$$
+
+　関数 $g$ の点 $x\in\mathrm{dom\ } g$ における劣微分は $\partial g(x)$ と記されることが多い．また，劣微分の要素 $d\in\partial g(x)$ は**劣勾配**（subgradient）と呼ばれる．関数 $g$ が微分可能ならば，劣微分は $\{\nabla g(x)\}$ となり，劣微分は平滑関数の一般的な微分を拡張した概念となっている[^1]．
+
+　例えば，一変数実数値関数の劣微分を考えると，点 $x$ での右極限 $\lim_{h\downarrow 0}\frac{f(x+h)-f(x)}{h}$ と左極限 $\lim_{h\uparrow 0}\frac{f(x+h)-f(x)}{h}$ の凸包が劣微分となる．[Wikipedia](https://ja.wikipedia.org/wiki/%E5%8A%A3%E5%BE%AE%E5%88%86) に一変数の場合の劣微分が図付きで解説されているのでそちらも参考にされたい．
+
+ここで，さらに劣微分の定義式 $(\rm{1})$ について $y\in L_g(x)$ とすれば，左辺は $g(y)-g(x)\leq 0$ となるため，結果的に以下のことが成り立つ．
+
+$$
+\tag{2} d^\top (y-x)\leq 0,\ \forall y\in L_g(x)
+$$
+
+これは，関数 $g$ の点 $x\in\mathrm{dom\ }g$ における劣勾配 $d$ は点 $x$ を始点とし，レベル集合 $L_g(x)$ 内の任意の要素 $y$ を終点とするベクトル $y-x$ と $d$ が90度以上をなすことを意味する．
+
+これは後述する標示関数の劣微分と法線錐の関係性を述べる上で重要な性質となる．
+
+
+
+## 劣微分を用いた最適性条件の表現
+
+　問題 $(\mathrm{P})$ は点 $x$ が実行不能解であるとき（$x\notin S$），目的関数を $f(x)=+\infty$ と定めれば，標示関数
+
+$$
+I_S(x):= \begin{cases}
+    0 & (x\in S)\\
+    +\infty & (x\notin S)
+  \end{cases}
+$$
+
+を用いることで，以下のような無制約最適化問題 $(\mathrm{P}_1)$ へと書き表すことができる．
+
+$$
+(\mathrm{P}_1)\ \mathrm{minimize}\ f(x)+I_S(x)
+$$
+
+微分可能な最適化問題と同様に，劣微分を用いた問題 $(\mathrm{P}_1)$ に対する停留条件は以下のように表される．
+
+$$
+0\in \{\nabla f(x)\}+\partial I_S(x)
+$$
+
+これ[^2]が，問題 $(\mathrm{P})$ に対する停留条件
+
+$$
+-\nabla f(x)\in N_S(x)
+$$
+
+と等価であること，つまり，標示関数の劣微分が法線錐となること $\partial I_S(x)=N_S(x)$ を示す．
+
+**定理**
+
+>　閉凸集合 $S$ の標示関数 $I_S$ の点 $x\in S$ における劣微分 $\partial I_S(x)$ は $S$ の点 $x\in S$ における法線錐 $N_S(x)$ に等しい[^3]．
+
+*証明*
+
+>　いま，$x\in S$ より $I_S(x) = 0$ であり，レベル集合 $L_{I_S}(x)=S$ である．式 $(\rm{2})$ より $N_S(x)=\{y\in\mathrm{R}^n\mid y^\top (z-x)\leq 0,\ z\in S\}$ と等しい．■
+
+---
+
+## 参考文献
+
+\[福島2001\] 福島雅夫．非線形最適化の基礎，朝倉書店，2001．
+
+
+[^1]:微分可能な関数 $f$ が凸関数のとき，次の不等式を満たすことが知られている．$f(y)-f(x)\geq \nabla f(x)^\top (y-x)$
+[^2]:集合 $S$ と $T$ の和は $S+T:=\{z\in\mathrm{R}\mid z=a+b,\ a\in S,\ b\in S\}$ で定義される．
+[^3]:点 $x\notin S$ の場合の劣微分は実効定義域に属さないため定義されない（念のため）．
+<Footer />
