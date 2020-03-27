@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on Planetarium *:&gt;</title>
+    <link>https://helloa24.com/blog/categories/test/</link>
+    <description>Recent content in test on Planetarium *:&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>&amp;copy; 2019 A24H</copyright>
+    <lastBuildDate>Sun, 13 Oct 2019 20:20:48 +0900</lastBuildDate>
+    
+	<atom:link href="https://helloa24.com/blog/categories/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>初デプロイ完了</title>
+      <link>https://helloa24.com/blog/posts/20191013/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/posts/20191013/</guid>
+      <description>&lt;p&gt;Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．&lt;/p&gt;
+&lt;p&gt;公開方法は以下のようになる．
+まずフォルダ構成であるが，次のように配置した．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

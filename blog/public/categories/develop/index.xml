@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>develop on Planetarium *:&gt;</title>
+    <link>https://helloa24.com/blog/categories/develop/</link>
+    <description>Recent content in develop on Planetarium *:&gt;</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <copyright>&amp;copy; 2019 A24H</copyright>
+    <lastBuildDate>Tue, 15 Oct 2019 08:01:08 +0900</lastBuildDate>
+    
+	<atom:link href="https://helloa24.com/blog/categories/develop/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>敬意</title>
+      <link>https://helloa24.com/blog/posts/20191015/</link>
+      <pubDate>Tue, 15 Oct 2019 08:01:08 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/posts/20191015/</guid>
+      <description>&lt;p&gt;私が &lt;a href=&#34;https://helloa24.com&#34;&gt;ウェブサイト&lt;/a&gt; を作成するにあたって，とても強い動機づけをもらった方がいます．&lt;/p&gt;
+&lt;p&gt;それに対する敬意をどうしても表したいという私のお願いに快諾していただいた &lt;a href=&#34;https://github.com/7ma7X&#34;&gt;7ma7X&lt;/a&gt; 様にまず感謝いたします．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>初デプロイ完了</title>
+      <link>https://helloa24.com/blog/posts/20191013/</link>
+      <pubDate>Sun, 13 Oct 2019 20:20:48 +0900</pubDate>
+      
+      <guid>https://helloa24.com/blog/posts/20191013/</guid>
+      <description>&lt;p&gt;Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．&lt;/p&gt;
+&lt;p&gt;公開方法は以下のようになる．
+まずフォルダ構成であるが，次のように配置した．&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

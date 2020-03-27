@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="数理最適化, オペレーションズ・リサーチ" name="keywords">
+<meta content="A24H" name="author">
+<meta property="og:title" content="初デプロイ完了 - Planetarium *:&gt;">
+<meta property="og:url" content="https://helloa24.com/blog/posts/20191013/">
+<meta property="og:description" content="技術メモ（最適化数学関連）兼日記です．">
+<meta property="og:type" content="website" />
+<title>初デプロイ完了 | Planetarium *:&gt;</title>
+<link rel="shortcut icon" href="/blog/favicon.ico">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Handlee">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/default.min.css">
+<link rel="stylesheet" href="https://helloa24.com/blog/css/style.css">
+<link rel="stylesheet" href="https://helloa24.com/blog/css/custom.css">
+</head>
+
+<body>
+<header>
+  <div class="container">
+    <div class="blog-title">
+      <h1><a class="nav-item" href="https://helloa24.com/blog/">Planetarium *:&gt;</a></h1>
+      <div><small>技術メモ（最適化数学関連）兼日記です． Website url: <a href='https://helloa24.com'><u>helloa24.com</u></a></small></div>
+    </div>
+    <ul class="social">
+      
+      <li class="social-item"><a href="https://github.com/Keith-Campbell"><span class="icon"><i class="fab fa-github"></i></span></a></li>
+      
+    </ul>
+  </div>
+</header>
+
+<main class="single">
+  <div class="container">
+    <article>
+      <p class="meta-date">2019-10-13 </p>
+      <h1 class="title">初デプロイ完了</h1>
+      <div class="post-meta">
+        <p class="meta-categories">
+          
+            <ul class="categories">
+
+  <li class="categories-item"><a href="/blog/categories/develop">develop</a></li>
+
+  <li class="categories-item"><a href="/blog/categories/web">web</a></li>
+
+  <li class="categories-item"><a href="/blog/categories/test">test</a></li>
+
+</ul>
+
+          
+          
+            <span>&nbsp;-&nbsp;</span>
+          
+          
+            <ul class="tags">
+
+  <li class="tags-item"><a href="/blog/tags/web">web</a></li>
+
+</ul>
+
+          
+        </p>
+      </div>
+      <div class="content">
+        <p>Next.jsのウェブサイトとhugoで作成したブログを同じドメイン上で公開するにはどうすればいいかと悩んで数日，ようやく解決した．</p>
+<p>公開方法は以下のようになる．
+まずフォルダ構成であるが，次のように配置した．</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">website/
+    ├.next/
+    ├blog/ <span style="color:#75715e"># hugoをインストールしたディレクトリ</span>
+        ├content/
+            ├posts
+                └<span style="color:#f92672">[</span>記事名<span style="color:#f92672">]</span>.md
+        ├public/ <span style="color:#75715e"># hugoコマンドをしたときに作成される公開向けのディレクトリ</span>
+
+        ├static/
+            ├images/ <span style="color:#75715e"># ブログで公開する画像を保管するディレクトリ</span>
+    ├components/
+    ...etc...
+    ├out <span style="color:#75715e"># npm run build ; npm run export した際に生成される公開向けディレクトリ</span>
+        ├<span style="color:#f92672">(</span>blog/<span style="color:#f92672">)</span> <span style="color:#75715e"># out 生成後に作成予定のブログ用公開ディレクトリ</span>
+</code></pre></div><p>私は静的ホスティングサービスにNetlifyを利用しているが，Build settingsのBuild commandは<code>npm run deploy ; mkdir out/blog ; cp -pR blog/public/* out/blog</code>としている．ディレクトリ名<code>out</code>と<code>public</code>はそれぞれNext.jsでビルドし，エクスポートしたときに生成されるディレクトリとhugoでビルドしたときに生成されるエクスポートディレクトリ名であるが，初期設定から変えていなければそのままで良いはずだ．</p>
+<p><img src="/blog/image/netlifyBuild.jpg" alt="img"></p>
+<p>こうすることで，ウェブサイトと同じドメイン上でhugoで作成したブログページを<code>http://example.com/blog</code>の形で公開することができた．</p>
+<p>ウェブサイトは以下の本の5章以降を参考に作成している．まず，React.jsを知らないとNext.jsを使ってウェブアプリを作成するのは難しいので，結局一から読んでいる．</p>
+<!-- raw HTML omitted -->
+<p>JavaScriptの知識に自信がない私は定評のある『JavaScript本格入門』をまず読んでから取り組んでいる．</p>
+<!-- raw HTML omitted -->
+      </div>
+    </article>
+
+    
+    <aside class="share">
+  <a class="twitter" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fhelloa24.com%2fblog%2fposts%2f20191013%2f&text=%e5%88%9d%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e5%ae%8c%e4%ba%86&tw_p=tweetbutton" onclick="window.open(this.href, 'shareWindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-twitter"></i></a>
+  <a class="facebook" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fhelloa24.com%2fblog%2fposts%2f20191013%2f&t=%e5%88%9d%e3%83%87%e3%83%97%e3%83%ad%e3%82%a4%e5%ae%8c%e4%ba%86" onclick="window.open(this.href, 'shareWindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fab fa-facebook"></i></a>
+</aside>
+
+    
+  </div>
+</main>
+
+
+
+<footer>
+  <div class="container">
+    <div class="footer-container">
+      <div class="footer-item">
+        <div class="profile-container">
+  <img src="https://helloa24.com/blog/image/profile.jpg" alt="profile-photo">
+  <div class="profile-text-container">
+    <h3 class="profile-name">A24H</h3>
+    <p class="profile-text">京都の大学院生（情報系の応用数学）です．研究の傍趣味としてウェブサイトをやってます．ウェブサイト開発に関してはど初心者ですが，新たに気づいたことを書きます．他にも，大学院修士課程まで専門としていた数理最適化に関する記事も書きます．</p>
+    <nav>
+      <ul class="social">
+      
+      <li class="social-item"><a href="https://github.com/Keith-Campbell"><span class="icon"><i class="fab fa-github"></i></span></a></li>
+      
+      </ul>
+    </nav>
+  </div>
+</div>
+
+      </div>
+    </div>
+    <p class="copyright">&copy; 2019 A24H</p>
+  </div>
+</footer>
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/monokai-sublime.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+</body>
