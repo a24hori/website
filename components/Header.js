@@ -24,9 +24,6 @@ const Header = () => (
     <Link href="/blog">
       <Button>Blog</Button>
     </Link>
-    <a href="https://twitter.com/keithca47562610">
-      <Button>Twitter</Button>
-    </a>
     <a href="https://github.com/Keith-Campbell">
       <Button>Github</Button>
     </a>
