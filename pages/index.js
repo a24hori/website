@@ -16,7 +16,7 @@ export default () => {
 				<li><b>研究対象</b>: 数理最適化（変分不等式問題，相補性問題，均衡制約をもつ均衡問題（EPEC））</li>
 				<li><b>研究成果</b>:
 					<ol>
-						<li><u>Hori, A.</u>, Fukushima, M. Gauss–Seidel Method for Multi-leader–follower Games. Journal of Optimization Theory and Applications <b>180</b>, 651–670 (2019). <a href="https://doi.org/10.1007/s10957-018-1391-5">https://doi.org/10.1007/s10957-018-1391-5</a></li>
+						<li><u>Hori, A.</u>, Fukushima, M. Gauss–Seidel method for multi-leader–follower games. <i>Journal of Optimization Theory and Applications</i> <b>180</b>, 651–670 (2019). <a href="https://doi.org/10.1007/s10957-018-1391-5">https://doi.org/10.1007/s10957-018-1391-5</a></li>
 					</ol>
 				</li>
 				<li><b>表彰歴</b>:
