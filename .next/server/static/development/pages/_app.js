@@ -162,7 +162,7 @@ const globalStyles = `
 const SiteTitle = ({
   isHomepage
 }) => {
-  const title = "A24H's website";
+  const title = "Atsushi Hori's website";
   return __jsx("div", {
     className: "siteTitle",
     __source: {

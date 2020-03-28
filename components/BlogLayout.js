@@ -47,7 +47,7 @@ const globalStyles = `
 `
 
 const SiteTitle = ({ isHomepage }) => {
-  const title = "A24H's website"
+  const title = "Atsushi Hori's website"
   return (
     <div className='siteTitle'>
       <Link href='/'><a>{title}</a></Link>

@@ -5,7 +5,7 @@ const layoutStyle = {
     padding: 20
 };
 
-const Layout = props => (
+const Layout = (props) => (
     <div style={layoutStyle}>
         <Header />
         {props.children}

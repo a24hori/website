@@ -18,7 +18,7 @@ const PostPreview = ({ post, prefetch }) => {
 
 export default () => {
     return (
-        <Layout>
+        <Layout pagetitle='OptMath (Optimization Mathematics)'>
             <Head>
                 <title>A24H | OptMath (Optimization Mathematics)</title>
             </Head>

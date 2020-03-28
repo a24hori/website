@@ -9,8 +9,6 @@ export default () => {
 				<title>A24H | Top</title>
 				<meta name="keywords" content="A24H,mathematical optimization,operations research,optmath" />
 			</Head>
-			<p>現在ウェブサイト作成中ですm(_ _)m（2019年12月4日現在）</p>
-			<p>Blogを更新しました（12月3日）</p>
 		  </Layout>
 	);
 };

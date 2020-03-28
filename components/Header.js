@@ -7,10 +7,10 @@ const linkStyle = {
   backgroundColor: "#fff",
 };
 
-const Header = () => (
-  <div>
+const Header = () => {
+  return (<div>
     <Head>
-        <link rel="shortcut icon" href="/static/favicon.ico" />
+      <link rel="shortcut icon" href="/static/favicon.ico" />
     </Head>
     <Link href="/">
       <Button>Home</Button>
@@ -27,8 +27,8 @@ const Header = () => (
     <a href="https://github.com/Keith-Campbell">
       <Button>Github</Button>
     </a>
-  </div>
-);
+  </div>);
+};
 
 
 export default Header;
