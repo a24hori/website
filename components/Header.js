@@ -15,9 +15,6 @@ const Header = () => {
     <Link href="/">
       <Button>Home</Button>
     </Link>
-    <Link href="/about">
-      <Button>About</Button>
-    </Link>
     <Link href="/optmath">
       <Button>OptMath</Button>
     </Link>

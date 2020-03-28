@@ -18,14 +18,14 @@ const PostPreview = ({ post, prefetch }) => {
 
 export default () => {
     return (
-        <Layout pagetitle='OptMath (Optimization Mathematics)'>
-            <Head>
-                <title>A24H | OptMath (Optimization Mathematics)</title>
-            </Head>
-            <h3>OptMath (Optimization Mathematics)</h3>
-            {posts.map((post, i) => (
-              <PostPreview key={i} post={post} prefetch={i < 3} />
-            ))}
-        </Layout>
+      <Layout>
+        <head>
+          <title>Atsushi Hori's website | OptMath (Optimization Mathematics)</title>
+        </head>
+        <h3>OptMath (Optimization Mathematics)</h3>
+        {posts.map((post, i) => (
+          <PostPreview key={i} post={post} prefetch={i < 3} />
+        ))}
+      </Layout>
     )
 }
