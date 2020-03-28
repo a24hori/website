@@ -1,4 +1,5 @@
 .htaccess
 /.next
+/blog
 node_modules
 .vscode
