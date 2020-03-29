@@ -8,7 +8,7 @@ const globalStyles = `
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 20px;
   }
   h1,h2,h3,h4,h5 {
     font-family: 'Noto Sans JP', sans-serif;
@@ -30,7 +30,7 @@ const globalStyles = `
   }
   
   .contentContainer {
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
   }
 

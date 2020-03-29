@@ -22,7 +22,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 16px;\n  }\n  h1,h2,h3,h4,h5 {\n    font-family: 'Noto Sans JP', sans-serif;\n  }\n  p {\n    font-family: 'Noto Serif JP', serif;\n  }\n  a {\n    color: #00c;\n    text-decoration: none;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 700px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
+var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 20px;\n  }\n  h1,h2,h3,h4,h5 {\n    font-family: 'Noto Sans JP', sans-serif;\n  }\n  p {\n    font-family: 'Noto Serif JP', serif;\n  }\n  a {\n    color: #00c;\n    text-decoration: none;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 800px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
 
 var SiteTitle = function SiteTitle(_ref) {
   var isHomepage = _ref.isHomepage;
