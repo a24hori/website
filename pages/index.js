@@ -21,10 +21,10 @@ export default () => {
 				</li>
 				<li><b>研究発表</b>:
 					<ol>
-						<li><u>Hori, A.</u>, Fukushima, M., Gauss—Seidel method for multi-leader—follower games. <i>The Fifth International Conference on Continuous Optimization (ICCOPT 2016)</i>, National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016. (poster)</li>
-						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss—Seidel型ペナルティ法，<a href='http://www.orsj.or.jp/chubu/?p=2708'>第44回日本OR学会中部支部研究発表会</a>，ウインクあいち愛知県立大学サテライトキャンパス，2017年3月．（<b>学生論文賞優秀賞受賞</b>）</li>
-						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss—Seidel型ペナルティ法，<a href='https://www.orsj.or.jp/~nc2017s/'>日本OR学会2017年春季研究発表会</a>，沖縄県市町村自治会館，2017年3月．</li>
-						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss—Seidel法，<a href='http://www.orsj.or.jp/~nc2018s/'>日本OR学会2018年春季研究発表会</a>，東海大学，2018年3月．</li>
+						<li><u>Hori, A.</u>, Fukushima, M., Gauss–Seidel method for multi-leader–follower games. <i>The Fifth International Conference on Continuous Optimization (ICCOPT 2016)</i>, National Graduate Institute for Policy Studies, Tokyo, Japan, August, 2016. (poster)</li>
+						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss–Seidel型ペナルティ法，<a href='http://www.orsj.or.jp/chubu/?p=2708'>第44回日本OR学会中部支部研究発表会</a>，ウインクあいち愛知県立大学サテライトキャンパス，2017年3月．（<b>学生論文賞優秀賞受賞</b>）</li>
+						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss–Seidel型ペナルティ法，<a href='https://www.orsj.or.jp/~nc2017s/'>日本OR学会2017年春季研究発表会</a>，沖縄県市町村自治会館，2017年3月．</li>
+						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss–Seidel法，<a href='http://www.orsj.or.jp/~nc2018s/'>日本OR学会2018年春季研究発表会</a>，東海大学，2018年3月．</li>
 					</ol>
 				</li>
 				<li><b>表彰歴</b>:
