@@ -11,6 +11,7 @@ const Header = () => {
   return (<div>
     <Head>
       <link rel="shortcut icon" href="/static/favicon.ico" />
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet"></link>
     </Head>
     <Link href="/">
       <Button>Home</Button>

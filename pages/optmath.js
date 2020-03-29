@@ -23,6 +23,8 @@ export default () => {
           <title>Atsushi Hori's website | OptMath (Optimization Mathematics)</title>
         </head>
         <h3>OptMath (Optimization Mathematics)</h3>
+        <p>最適化数学に関する備忘録（間違いや疑問点があれば，以下のメールアドレス（★→@）までご連絡いただけると幸いです）．</p>
+        <pre>atsh.handelssohn★gmail.com</pre>
         {posts.map((post, i) => (
           <PostPreview key={i} post={post} prefetch={i < 3} />
         ))}
