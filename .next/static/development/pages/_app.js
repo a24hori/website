@@ -22,7 +22,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 16px;\n  }\n\n  a {\n    color: #00c;\n    text-decoration: none;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 700px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
+var globalStyles = "\n\n  body, html {\n    margin: 0;\n    padding: 0;\n    font-family: sans-serif;\n    font-size: 16px;\n  }\n  h1,h2,h3,h4,h5 {\n    font-family: 'Noto Sans JP', sans-serif;\n  }\n  p {\n    font-family: 'Noto Serif JP', serif;\n  }\n  a {\n    color: #00c;\n    text-decoration: none;\n  }\n  a:hover {\n    color: #33f;\n  }\n\n  code {\n    text-align: center;\n    font-family: monospace;\n  }\n  \n  .contentContainer {\n    max-width: 700px;\n    margin: 0 auto;\n  }\n\n  .siteTitle {\n    font-size: 30px;\n    font-weight: 400;\n    margin-top: 3rem;\n    margin-bottom: 2rem;\n  }\n  .siteTitle a {\n    color: #000;\n    text-decoration: none;\n  }\n  .siteTitle a:hover {\n    color: #666;\n  }\n\n\n";
 
 var SiteTitle = function SiteTitle(_ref) {
   var isHomepage = _ref.isHomepage;
@@ -31,20 +31,20 @@ var SiteTitle = function SiteTitle(_ref) {
     className: "siteTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 57
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: this
   }, title)));
@@ -60,47 +60,55 @@ var SiteTitle = function SiteTitle(_ref) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 67
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 68
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 69
     },
     __self: this
   }, title), __jsx("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: this
-  }, globalStyles), __jsx("meta", {
+  }, globalStyles), __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }), __jsx("meta", {
     name: "keywords",
     content: _posts__WEBPACK_IMPORTED_MODULE_3__["default"].keywords,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 72
     },
     __self: this
   })), __jsx("div", {
     className: "contentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 74
     },
     __self: this
   }, __jsx(SiteTitle, {
     isHomepage: pathname === '/',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 75
     },
     __self: this
   }), children));

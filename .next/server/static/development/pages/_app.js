@@ -123,7 +123,12 @@ const globalStyles = `
     font-family: sans-serif;
     font-size: 16px;
   }
-
+  h1,h2,h3,h4,h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  p {
+    font-family: 'Noto Serif JP', serif;
+  }
   a {
     color: #00c;
     text-decoration: none;
@@ -167,20 +172,20 @@ const SiteTitle = ({
     className: "siteTitle",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 57
     },
     __self: undefined
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: undefined
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 58
     },
     __self: undefined
   }, title)));
@@ -195,47 +200,55 @@ const SiteTitle = ({
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 67
     },
     __self: undefined
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 68
     },
     __self: undefined
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 69
     },
     __self: undefined
   }, title), __jsx("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 70
     },
     __self: undefined
-  }, globalStyles), __jsx("meta", {
+  }, globalStyles), __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: undefined
+  }), __jsx("meta", {
     name: "keywords",
     content: _posts__WEBPACK_IMPORTED_MODULE_3__["default"].keywords,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 72
     },
     __self: undefined
   })), __jsx("div", {
     className: "contentContainer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 74
     },
     __self: undefined
   }, __jsx(SiteTitle, {
     isHomepage: pathname === '/',
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69
+      lineNumber: 75
     },
     __self: undefined
   }), children));

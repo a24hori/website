@@ -28,6 +28,10 @@
     "/optmath": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/posts/20191202": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }

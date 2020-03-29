@@ -10,7 +10,12 @@ const globalStyles = `
     font-family: sans-serif;
     font-size: 16px;
   }
-
+  h1,h2,h3,h4,h5 {
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+  p {
+    font-family: 'Noto Serif JP', serif;
+  }
   a {
     color: #00c;
     text-decoration: none;
@@ -63,6 +68,7 @@ export default ({ pathname, children }) => {
       <Head>
         <title>{title}</title>
         <style>{globalStyles}</style>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300|Noto+Serif+JP:300&display=swap" rel="stylesheet"></link>
         <meta name="keywords" content={posts.keywords} />
       </Head>
       <div className='contentContainer'>
