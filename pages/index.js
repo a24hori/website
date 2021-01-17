@@ -13,7 +13,7 @@ export default () => {
 			<ul>
 				<li><b>氏名</b>: 堀 篤史</li>
 				<li><b>所属</b>: 京都大学大学院（情報学研究科数理工学専攻）博士後期課程在籍中</li>
-				<li><b>研究対象</b>: 数理最適化理論（特に変分不等式問題をはじめとするクラスの均衡問題に興味）</li>
+				<li><b>研究対象</b>: 連続最適化の理論（特に変分不等式問題をはじめとするクラスの均衡問題に興味），組み合わせ最適化の実社会への応用（スケジューリングやロット最適化など）</li>
 				<li><b>研究成果</b>:
 					<ol>
 						<li><u>Hori, A.</u>, Fukushima, M., Gauss–Seidel method for multi-leader–follower games. <i>Journal of Optimization Theory and Applications</i> <b>180</b>, 651–670 (2019). <a href="https://doi.org/10.1007/s10957-018-1391-5">https://doi.org/10.1007/s10957-018-1391-5</a></li>
