@@ -16,12 +16,6 @@ const Header = () => {
     <Link href="/">
       <Button>Home</Button>
     </Link>
-    <Link href="/optmath">
-      <Button>OptMath</Button>
-    </Link>
-    <a href="https://github.com/Keith-Campbell">
-      <Button>Github</Button>
-    </a>
   </div>);
 };
 
