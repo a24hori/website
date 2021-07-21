@@ -21,6 +21,7 @@ export default () => {
 				</li>
 				<li><b>研究発表</b>:
 					<ol>
+						<li><u>Hori, A.</u>, Yamakawa, Y., and Yamashita, N., Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. <i>SIAM Conference on Optimization (OP21)</i>, Virtual (CP2 Advances in Robust and Distributionally Robust Optimization)</li>
 						<li><u>堀篤史</u>，山川雄也，山下信雄，確率変分不等式問題に対する分布的ロバスト期待残差最小化，<a href='https://www.orsj.or.jp/nc/2021s/'>日本OR学会2021年春季研究発表会</a>，東京工業大学（オンライン），2021年3月．</li>
 						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss–Seidel法，<a href='http://www.orsj.or.jp/~nc2018s/'>日本OR学会2018年春季研究発表会</a>，東海大学，2018年3月．</li>
 						<li><u>堀篤史</u>，福島雅夫，マルチリーダー・フォロワーゲームに対するGauss–Seidel型ペナルティ法，<a href='https://www.orsj.or.jp/~nc2017s/'>日本OR学会2017年春季研究発表会</a>，沖縄県市町村自治会館，2017年3月．</li>
