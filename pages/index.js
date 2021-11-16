@@ -16,7 +16,8 @@ export default () => {
 				<li><b>研究対象</b>: 連続最適化の理論（特に変分不等式問題をはじめとするクラスの均衡問題に興味），組み合わせ最適化の実社会への応用（スケジューリングやロット最適化など）</li>
 				<li><b>研究成果</b>:
 					<ol>
-						<li><u>Hori, A.</u>, Fukushima, M., Gauss–Seidel method for multi-leader–follower games. <i>Journal of Optimization Theory and Applications</i> <b>180</b>, 651–670 (2019). <a href="https://doi.org/10.1007/s10957-018-1391-5">https://doi.org/10.1007/s10957-018-1391-5</a></li>
+						<li><u>Hori, A.</u>, Yamakawa, Y., and Yamashita, N., Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. <i>Submitted. <a href="https://arxiv.org/abs/2111.07500">https://arxiv.org/abs/2111.07500</a></li>
+						<li><u>Hori, A.</u>and Fukushima, M., Gauss–Seidel method for multi-leader–follower games. <i>Journal of Optimization Theory and Applications</i> <b>180</b>, 651–670 (2019). <a href="https://doi.org/10.1007/s10957-018-1391-5">https://doi.org/10.1007/s10957-018-1391-5</a></li>
 					</ol>
 				</li>
 				<li><b>研究発表</b>:
