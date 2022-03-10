@@ -22,6 +22,7 @@ export default () => {
 				</li>
 				<li><b>研究発表</b>:
 					<ol>
+						<li><u>堀篤史</u>，2段階分布的ロバストCournot--Nash均衡問題と均衡解の存在性，<a href='http://wakate.jsiam.org/?p=68'>日本応用数理学会 若手の会 第7回学生研究発表会</a>，オンライン開催，2022年3月．</li>
 						<li><u>堀篤史</u>，山川雄也，山下信雄，確率変分不等式問題に対する分布的ロバスト期待残差最小化，<a href='https://orsj.org/kansai/2021/10/05/2021%e5%b9%b4%e5%ba%a6%e9%96%a2%e8%a5%bf%e6%94%af%e9%83%a8ssor/'>日本OR学会関西支部SSOR2021</a>，オンライン開催，2021年10月．（<b>優秀発表賞受賞</b>）</li>
 						<li><u>Hori, A.</u>, Yamakawa, Y., and Yamashita, N., Distributionally Robust Expected Residual Minimization for Stochastic Variational Inequality Problems. <a href='https://www.siam.org/conferences/cm/conference/op21'><i>SIAM Conference on Optimization (OP21)</i></a>, Virtual (CP2 Advances in Robust and Distributionally Robust Optimization), July, 2021.</li>
 						<li><u>堀篤史</u>，山川雄也，山下信雄，確率変分不等式問題に対する分布的ロバスト期待残差最小化，<a href='https://www.orsj.or.jp/nc/2021s/'>日本OR学会2021年春季研究発表会</a>，東京工業大学（オンライン），2021年3月．</li>
